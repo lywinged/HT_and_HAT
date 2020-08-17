@@ -1,0 +1,22 @@
+# TEST CONFIGURATION BEGIN
+# FileStream(filename='elecn.csv', target_idx=-1, n_targets=1, cat_features=None)
+# [hat] HAT(binary_split=False, grace_period=200, leaf_prediction='nba', max_byte_size=33554432, memory_estimate_period=1000000, nb_threshold=0, no_preprune=False, nominal_attributes=None, remove_poor_atts=False, split_confidence=1e-07, split_criterion='info_gain', stop_mem_management=False, tie_threshold=0.05)
+# [ht] HoeffdingTree(binary_split=False, grace_period=200, leaf_prediction='nba', max_byte_size=33554432, memory_estimate_period=1000000, nb_threshold=0, no_preprune=False, nominal_attributes=None, remove_poor_atts=False, split_confidence=1e-07, split_criterion='gini', stop_mem_management=False, tie_threshold=0.05)
+# EvaluatePrequential(batch_size=1, data_points_for_classification=False, max_samples=3000, max_time=inf, metrics=['accuracy', 'kappa'], n_wait=200, output_file='results.csv', pretrain_size=500, restart_stream=True, show_plot=True)
+# TEST CONFIGURATION END
+id,mean_acc_[hat],current_acc_[hat],mean_acc_[ht],current_acc_[ht],mean_kappa_[hat],current_kappa_[hat],mean_kappa_[ht],current_kappa_[ht]
+500,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000
+501,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000
+599,0.720000,0.720000,0.760000,0.760000,0.306931,0.306931,0.451554,0.451554
+799,0.833333,0.890000,0.826667,0.860000,0.666667,0.774035,0.653333,0.711697
+999,0.844000,0.860000,0.838000,0.855000,0.687615,0.714198,0.675054,0.704202
+1199,0.861429,0.905000,0.865714,0.935000,0.712935,0.581498,0.724916,0.743083
+1399,0.885556,0.970000,0.887778,0.965000,0.755409,0.921136,0.763276,0.908545
+1599,0.900000,0.965000,0.901818,0.965000,0.781548,0.911861,0.788096,0.910760
+1799,0.885385,0.805000,0.885385,0.795000,0.758020,0.616217,0.760306,0.597012
+1999,0.880000,0.845000,0.885333,0.885000,0.745527,0.660683,0.758866,0.748249
+2199,0.870000,0.795000,0.877647,0.820000,0.719174,0.442480,0.737038,0.483945
+2399,0.863158,0.805000,0.876842,0.870000,0.714058,0.567627,0.740654,0.738956
+2599,0.857619,0.805000,0.866667,0.770000,0.703807,0.610856,0.721723,0.557522
+2799,0.859130,0.875000,0.862174,0.815000,0.709145,0.749900,0.713946,0.630370
+2999,0.866800,0.955000,0.870800,0.970000,0.722565,0.886507,0.729508,0.924774
